@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../Assets/background.png.png");
+	margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/* Navbar */
+header {
+	padding-bottom: 25px;
+}
+
+/* Main Headers */
+h1 {
+	border-style: solid;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom-width: 3px;
+	border-bottom-color: #cccccc;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+/* Link List in Header */
+ul {
+	margin-left: 800px;
+}
+
+/* Bio Text */
+p {
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+/* Container holding content through out all pages */
+.wrapper 	{
+	background-color: white;
+	border-right: 200px;
+	border-left: 200px;
+	margin: auto;
+	width: 800px;
+}
+
+.figure {
+	float: left;
+	margin-left: 90px;
+	padding: 10px;
+	position: relative;
+	width: 50%;
+}
+
+.figimage {
+	width: 100%;
+}
+
+/* Image caption on "portfolio" page */
+.figcaption {
+	background-color: #4aaaa5;
+	bottom: 25px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 25px;
+	left: 10px;
+	position: absolute;
+	right: 10px;
+	text-align: center
+}
+
+/* Picture on "about" page */
+.profilepic	{
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+/* Background pictures on "portfolio" page */
+.portfoliopictures {
+	padding-left: 25px;
+}
+
+/* Text describing inputs on "contact" page */
+.formgroup {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p, .formgroup {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #777777
+} 
